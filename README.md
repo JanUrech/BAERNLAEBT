@@ -1,2 +1,2 @@
 # BAERNLAEBT
- Die Community Plattform Bärnläbt aus Ber
+ Die Community Plattform Bärnläbt aus Bern
