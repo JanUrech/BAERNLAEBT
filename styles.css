@@ -1,0 +1,33 @@
+form{
+    display:grid;
+    margin: 1fr;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+
+form input:focus {
+    color:red;
+}
+
+#sendenButton:hover {
+    background-color: red;
+}
+
+h1:hover {
+    color: blue;
+}
+
+form1 {
+    display: flex
+    flex-flow=row;
+}
+
+form div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#gridform {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
