@@ -8,3 +8,13 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+
+h1 {
+    font-family: fonts/Inputser;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
