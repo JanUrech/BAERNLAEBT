@@ -1,2 +1,10 @@
-body{background-color: bisque;}
-logo header{height: 493px; width: 460px;}
+body {
+    background-color: bisque;
+}
+
+.logo header {
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
