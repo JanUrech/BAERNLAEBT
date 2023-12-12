@@ -10,22 +10,22 @@
 
 .button {
     background-color: #DFD0AF;
-    border: none;
     color: rgb(0, 0, 0);
-    padding: 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+align-items: center;
+    font-size: 24px;
     margin: 4px 2px;
     font-family: "amiko", sans-serif;
+    width: 220px;
+    height: 84px;
+    border-radius: 40px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
     font-family: "input-serif", serif;
 font-weight: 400;
 font-style: normal;
@@ -35,7 +35,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
     color: #b34641;
     font-family: "input-serif", serif;
     font-size: 41px;
@@ -45,7 +45,7 @@ h3 {
     display: flex;
     justify-content: center;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
     color: #b34641;
     font-family: "input-serif", serif;
 font-weight: 400;
@@ -60,8 +60,9 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
 }
 
 .content{
@@ -69,7 +70,7 @@ header {
     justify-content: center;
     flex-direction: column;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
 }
 
 .horizontal {
@@ -77,11 +78,40 @@ header {
     justify-content: center;
     flex-direction: row;
     padding: 0 20px;
-    background-color: #EFE2C5;
+
 }
 
 .platzhalter{
     height: 390px;
     width: 340px;
 
+}
+body {
+
+    background-image: url("../Images/Home_Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teaser {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20px;
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+.teasertext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 200px;
+}
+
+.logo {
+    height: 460px;
+    width: 493px;
+    margin-top: 80px;
 }
