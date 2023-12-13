@@ -12,6 +12,7 @@
     background-color: #DFD0AF;
     color: rgb(0, 0, 0);
     text-align: center;
+    line-height: 3.5;
     align-items: center;
     font-size: 24px;
     margin: 4px 2px;
@@ -121,10 +122,12 @@ body {
 :root {}
 
 .event {
-    fill: white;
+    margin: 10px;
+    background-color: rgb(225, 213, 213);
     border: #b34641;
     border-style: solid;
-
+    width: 600px;
+    flex-grow: 4;
 
 }
 
@@ -136,4 +139,30 @@ body {
     margin-top: 200px;
     margin-bottom: 200px;
     align-items: center;
+}
+
+.largeimage{
+    height: 20px;
+    width: 20px;
+}
+
+.eventdatum{
+align-items: column;
+
+
+
+}
+
+.monat{
+    font-size: 20px;
+    font-family: "amiko", sans-serif;
+    font-weight: 400;
+    color: #b34641;
+}
+
+.eventtag{
+font-size: 35px;
+font-family: "input-serif", serif;
+
+
 }
