@@ -1,0 +1,139 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+
+.button {
+    background-color: #DFD0AF;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    font-family: "amiko", sans-serif;
+    width: 220px;
+    height: 84px;
+    border-radius: 40px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+    font-family: "input-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+    color: #b34641;
+    font-family: "input-serif", serif;
+    font-size: 41px;
+    font-weight: 400;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+    color: #b34641;
+    font-family: "input-serif", serif;
+    font-weight: 400;
+    font-size: 66px;
+}
+
+p {
+    font-family: "amiko", sans-serif;
+    font-weight: 400;
+    font-size: 22;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20px;
+
+}
+
+.platzhalter {
+    height: 390px;
+    width: 340px;
+}
+
+body {
+    background-image: url("../Images/Home_Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teaser {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20 px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.teasertext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 200px;
+}
+
+.logo {
+    height: 460px;
+    width: 493px;
+    margin-top: 80px;
+}
+
+:root {}
+
+.event {
+    fill: white;
+    border: #b34641;
+    border-style: solid;
+
+
+}
+
+.eventliste {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+}
