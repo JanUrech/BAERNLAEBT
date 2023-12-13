@@ -117,3 +117,23 @@ body {
     width: 493px;
     margin-top: 80px;
 }
+
+:root {}
+
+.event {
+    fill: white;
+    border: #b34641;
+    border-style: solid;
+
+
+}
+
+.eventliste {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    align-items: center;
+}
