@@ -1,0 +1,17 @@
+
+.flexbox {
+    display: flexbox;
+    justify-content: center;
+    height: 500px;
+    margin: 10px;
+}
+
+#container {
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #BF3A3B;
+}
