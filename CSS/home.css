@@ -33,14 +33,11 @@ h2 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
-    align-self: center;
     color: #b34641;
     font-family: "input-serif", serif;
     font-weight: 400;
     font-size: 66px;
+    text-align: center;
 }
 
 p {
@@ -121,10 +118,14 @@ body {
     text-align: left;
 }
 
+
 .logo {
-    height: 460px;
-    width: 493px;
-    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20 px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .event {
@@ -243,3 +244,4 @@ main {
     margin-top: 7px;
     font-style: "bold";
 }
+

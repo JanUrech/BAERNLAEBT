@@ -5,6 +5,11 @@ margin: 0;
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .logo{
     height: 460px;
     width: 493px;
@@ -31,4 +36,82 @@ header {
     flex-direction: row;
     justify-content: space-around;
     margin: 10px;
+}
+
+
+footer {
+    background-color: #DFD0AF;
+    font-family: "amiko", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.footerTextContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.footerLogosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#footerColumn1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#footerColumn2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#footerColumn3 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+#footerColumn4 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+
+.footerSoMe {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+}
+
+.footerTitel {
+    font-size: 22px;
+    font-family: "input-serif", serif;
+    color: #b34641;
+    margin: 0px;
+}
+
+.footerText {
+    font-size: 22px;
+    font-family: "amiko", sans-serif;
+    margin: 0px;
+}
+
+.footerLogoContainer { 
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #DFD0AF;
+}
+
+.footerLogo {
+    margin: 10px;
+    height: 80px;
 }
