@@ -1,5 +1,102 @@
-main{
-    background-image: url("../Images/Angebot_Background.svg");
+
+body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+main {
+    background-image: url("../Images/AboutUs_Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1 {
+    font-family: "input-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+h2 {
+    color: #b34641;
+    font-family: "input-serif", serif;
+    font-size: 41px;
+    font-weight: 400;
+}
+
+h3 {
+    color: #b34641;
+    font-family: "input-serif", serif;
+    font-weight: 400;
+    font-size: 66px;
+    text-align: center;
+}
+
+p {
+    font-family: "amiko", sans-serif;
+    font-weight: 400;
+    font-size: 22;
+}
+
+.logoÜberuns {
+    width: 64px;
+    height: 125px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+
+.button {
+    background-color: #DFD0AF;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 3.5;
+    align-items: center;
+    font-size: 24px;
+    margin: 4px 2px;
+    font-family: "amiko", sans-serif;
+    width: 220px;
+    height: 84px;
+    border-radius: 40px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20px;
+
+}
+.teaserBoxLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 25%;
+    flex-direction: column;
+    width: 400px;
+}
+
+.teaserBoxRechts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20%;
+    flex-direction: column;
+    width: 400px;
+}
+
+.Salut {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20 px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.teaserTextLinks {
+    text-align: left;
+}
+
