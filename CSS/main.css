@@ -30,14 +30,14 @@ h1 {
 }
 
 h2 {
-    color: #b34641;
+    color: #bf3a3b;
     font-family: "input-serif", serif;
     font-size: 41px;
     font-weight: 400;
 }
 
 h3 {
-    color: #b34641;
+    color: #bf3a3b;
     font-family: "input-serif", serif;
     font-weight: 400;
     font-size: 66px;
@@ -119,8 +119,8 @@ footer {
 
 .footerTitel {
     font-size: 22px;
-    font-family: "input-serif", serif;
-    color: #b34641;
+    font-family: "amiko", sans-serif;
+    color: #bf3a3b;
     margin: 0px;
 }
 
@@ -155,7 +155,7 @@ background-color: #DFD0AF;
 }
 
 .buttonActive {
-    background-color: orange;
+    background-color: #e37e41;
     color: black;
     font-weight: 700;
     text-align: center;
@@ -177,14 +177,14 @@ h1 {
 }
 
 h2 {
-    color: #b34641;
+    color: #bf3a3b;
     font-family: "input-serif", serif;
     font-size: 41px;
     font-weight: 400;
 }
 
 h3 {
-    color: #b34641;
+    color: #bf3a3b;
     font-family: "input-serif", serif;
     font-weight: 400;
     font-size: 66px;
