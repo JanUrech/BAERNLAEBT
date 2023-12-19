@@ -23,6 +23,9 @@ a {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
     font-family: "input-serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -54,7 +57,8 @@ header {
     display: flex;
     justify-content: center;
     padding: 0 20px;
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-container {
@@ -63,6 +67,35 @@ header {
     justify-content: space-around;
     margin: 10px;
 }
+
+
+
+.button {
+    background-color: #DFD0AF;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 3.5;
+    font-size: 24px;
+    font-family: "amiko", sans-serif;
+    width: 220px;
+    height: 84px;
+    border-radius: 40px;
+}
+
+.buttonActive {
+    background-color: #e37e41;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3.5;
+    font-size: 24px;
+    font-family: "amiko", sans-serif;
+    width: 220px;
+    height: 84px;
+    border-radius: 40px;
+}
+
+
 
 
 footer {
@@ -140,73 +173,4 @@ background-color: #DFD0AF;
 .footerLogo {
     margin: 10px;
     height: 80px;
-}
-
-.button {
-    background-color: #DFD0AF;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    line-height: 3.5;
-    font-size: 24px;
-    font-family: "amiko", sans-serif;
-    width: 220px;
-    height: 84px;
-    border-radius: 40px;
-}
-
-.buttonActive {
-    background-color: #e37e41;
-    color: black;
-    font-weight: 700;
-    text-align: center;
-    line-height: 3.5;
-    font-size: 24px;
-    font-family: "amiko", sans-serif;
-    width: 220px;
-    height: 84px;
-    border-radius: 40px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
-    font-family: "input-serif", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h2 {
-    color: #bf3a3b;
-    font-family: "input-serif", serif;
-    font-size: 41px;
-    font-weight: 400;
-}
-
-h3 {
-    color: #bf3a3b;
-    font-family: "input-serif", serif;
-    font-weight: 400;
-    font-size: 66px;
-    text-align: center;
-}
-
-p {
-    font-family: "amiko", sans-serif;
-    font-weight: 400;
-    font-size: 22;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-
-}
-
-.button:active {
-    background-color: orange;
-    color: white;
 }
