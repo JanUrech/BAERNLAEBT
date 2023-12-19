@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
 
 
+
 .button {
     background-color: #DFD0AF;
     color: rgb(0, 0, 0);
@@ -70,8 +71,9 @@ header {
 }
 
 body {
+    background-image: url("../Images/Home_Background.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover
 }
 
 .teaser {
@@ -181,9 +183,7 @@ body {
 }
 
 main {
-    background-image: url("../Images/Home_Background.svg");
-    background-repeat: no-repeat;
-    background-size: cover
+
 }
 
 #eventGrün {

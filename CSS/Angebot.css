@@ -1,4 +1,4 @@
-main{
+main {
     background-image: url("../Images/Angebot_Background.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ main{
 }
 
 .datum {
-    background-color:  #e37e41;
+    background-color: #e37e41;
     color: white;
     font: amiko;
     font-size: 22px;
@@ -70,12 +70,12 @@ main{
     background-color: white;
     border-radius: 42px;
     align-items: center;
-  width: 1000px;
+    width: 1000px;
 }
 
 #suchIcon {
     height: 64px;
-border-radius: 32px;
+    border-radius: 32px;
 }
 
 
@@ -100,44 +100,45 @@ border-radius: 32px;
     margin-bottom: 10px;
     padding: 10px;
     align-items: center;
-    }
+}
 
-    #anmeldung {
-        background-color: #FFF3D9;
-        color: black;
-        text-align: center;
-        border-radius: 15px;
-        font-size: 22px;
-        height: 30px;
-        width: 220px;
-        margin: 0px 20px;
-    }
-    #registrieren {
-        background-color:  #e37e41;
-        color: white;
-        text-align: center;
-        border-radius: 15px;
-        font-size: 22px;
-        height: 30px;
-        width: 220px;
-        margin: 0px 20px;
-    }
+#anmeldung {
+    background-color: #FFF3D9;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 22px;
+    height: 30px;
+    width: 220px;
+    margin: 0px 20px;
+}
+
+#registrieren {
+    background-color: #e37e41;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 22px;
+    height: 30px;
+    width: 220px;
+    margin: 0px 20px;
+}
 
 
-    .sectionBeschreibung {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin: 10px
-    }
+.sectionBeschreibung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px
+}
 
-#schnöigge { 
-text-align: end;
-align-self: flex-end;
- }
- 
- .paragraphTitel {
+#schnöigge {
+    text-align: end;
+    align-self: flex-end;
+}
+
+.paragraphTitel {
     font: amiko;
     font-size: 24px;
     font-weight: 700;
@@ -159,15 +160,15 @@ align-self: flex-end;
 }
 
 .angebotLink {
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #zurKarte {
     background-color: #047553;
     color: white;
-align-tracks: center;
+    align-tracks: center;
     text-align: end;
     font-family: "input-serif", serif;
     border-radius: 42px;
@@ -189,7 +190,7 @@ align-tracks: center;
     margin-left: 100px;
 }
 
-#weird{ 
-text-align: center;
-width: 50%;
+#weird {
+    text-align: center;
+    width: 50%;
 }
