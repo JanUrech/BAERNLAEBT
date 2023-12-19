@@ -24,7 +24,7 @@ main{
 
 .datumPfeile {
     background-color: #DFD0AF;
-    color: #b34641;
+    color: #bf3a3b;
     text-align: center;
     border-radius: 20%;
     font-size: 22px;
@@ -34,7 +34,7 @@ main{
 }
 
 .datum {
-    background-color: orange;
+    background-color:  #e37e41;
     color: white;
     font: amiko;
     font-size: 22px;
@@ -113,7 +113,7 @@ border-radius: 32px;
         margin: 0px 20px;
     }
     #registrieren {
-        background-color: orange;
+        background-color:  #e37e41;
         color: white;
         text-align: center;
         border-radius: 15px;
@@ -137,22 +137,25 @@ text-align: end;
 align-self: flex-end;
  }
  
-.beschreibungTextTitel {
+ .paragraphTitel {
     font: amiko;
     font-size: 24px;
     font-weight: 700;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 500px;
 }
 
-.beschreibungText {
+.paragraphText {
     font: amiko;
     font-size: 22px;
     font-weight: 400;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: start;
+    width: 500px;
 }
 
 .angebotLink {
@@ -162,40 +165,31 @@ justify-content: center;
 }
 
 #zurKarte {
-    background-color: green;
+    background-color: #047553;
     color: white;
-    justify-content: flex-end;
+align-tracks: center;
+    text-align: end;
     font-family: "input-serif", serif;
     border-radius: 42px;
     font-size: 30px;
     height: 84px;
-    width: 500px;
     padding: 10px;
     margin-right: 100px;
 }
 
 #zumKalender {
-    background-color: purple;
+    background-color: #ef85ad;
     color: white;
     justify-content: flex-start;
     font-family: "input-serif", serif;
     border-radius: 42px;
     font-size: 30px;
     height: 84px;
-    width: 500px;
     padding: 10px;
     margin-left: 100px;
 }
 
-.suchbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 84px;
-    background-color: white;
-    border-radius: 42px;
-    align-items: center;
-  width: 1000px;}
+#weird{ 
+text-align: center;
+width: 50%;
+}
