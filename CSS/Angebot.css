@@ -1,8 +1,9 @@
-body {
+main{
     background-image: url("../Images/Angebot_Background.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .sectionCalendar {
     display: flex;
@@ -78,17 +79,6 @@ border-radius: 32px;
 }
 
 
-.button {
-    background-color: #DFD0AF;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    line-height: 3.5;
-    font-size: 24px;
-    font-family: "amiko", sans-serif;
-    width: 220px;
-    height: 84px;
-    border-radius: 40px;
-}
 .einladungBox {
     display: flex;
     flex-direction: column;
@@ -132,3 +122,80 @@ border-radius: 32px;
         width: 220px;
         margin: 0px 20px;
     }
+
+
+    .sectionBeschreibung {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px
+    }
+
+#schnöigge { 
+text-align: end;
+align-self: flex-end;
+ }
+ 
+.beschreibungTextTitel {
+    font: amiko;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.beschreibungText {
+    font: amiko;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.angebotLink {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#zurKarte {
+    background-color: green;
+    color: white;
+    justify-content: flex-end;
+    font-family: "input-serif", serif;
+    border-radius: 42px;
+    font-size: 30px;
+    height: 84px;
+    width: 500px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+#zumKalender {
+    background-color: purple;
+    color: white;
+    justify-content: flex-start;
+    font-family: "input-serif", serif;
+    border-radius: 42px;
+    font-size: 30px;
+    height: 84px;
+    width: 500px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.suchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 84px;
+    background-color: white;
+    border-radius: 42px;
+    align-items: center;
+  width: 1000px;}
