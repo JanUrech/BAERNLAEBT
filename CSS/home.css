@@ -166,7 +166,6 @@ body {
 .eventMonat {
     font-size: 30px;
     font-family: "input-serif", serif;
-    ;
     margin: 0;
 }
 
@@ -180,10 +179,6 @@ body {
     font-size: 20px;
     font-family: "input-serif", serif;
     margin-top: 0;
-}
-
-main {
-
 }
 
 #eventGrün {
