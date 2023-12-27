@@ -3,16 +3,10 @@
 body  {
     display: flex;
     flex-direction: column;
-    align-items: centerl;
+    align-items: center;
     margin: 0;
     padding: 0;
 
-}
-main {
-    width: calc(100% - 200px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 a {
@@ -43,14 +37,14 @@ h1 {
 }
 
 h2 {
-    color: #bf3a3b;
+    color: #b34641;
     font-family: "input-serif", serif;
     font-size: 41px;
     font-weight: 400;
 }
 
 h3 {
-    color: #bf3a3b;
+    color: #b34641;
     font-family: "input-serif", serif;
     font-weight: 400;
     font-size: 66px;
@@ -72,16 +66,27 @@ header {
 }
 
 .toolbar {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     margin-bottom: 0px;
     width: calc(80% - 200px);
-    justify-content: flex-end;
 }
 
 .headerIcons {
     height: 25px;
+
+}
+.toolbarLeft {
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.toolbarRight {
+    grid-column: 2;
+    display: flex;
+justify-content: flex-end;
 }
 
 .menu-container {
@@ -122,6 +127,7 @@ header {
 
 
 footer {
+    width: 100%;
     background-color: #DFD0AF;
     font-family: "amiko", sans-serif;
     display: grid;
@@ -191,6 +197,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     background-color: #DFD0AF;
+    width: 100%;
 }
 
 .footerLogo {

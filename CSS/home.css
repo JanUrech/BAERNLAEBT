@@ -16,30 +16,6 @@
     border-radius: 40px;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
-
-    font-family: "input-serif", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h2 {
-    color: #b34641;
-    font-family: "input-serif", serif;
-    font-size: 41px;
-    font-weight: 400;
-}
-
-h3 {
-    color: #b34641;
-    font-family: "input-serif", serif;
-    font-weight: 400;
-    font-size: 66px;
-    text-align: center;
-}
 
 p {
     font-family: "amiko", sans-serif;
@@ -47,28 +23,6 @@ p {
     font-size: 22;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-
-}
-
-
-.horizontal {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 20px;
-
-}
-
-.platzhalter {
-    height: 390px;
-    width: 340px;
-}
 
 body {
     background-image: url("../Images/Home_Background.svg");
@@ -84,7 +38,6 @@ body {
     margin-top: 200px;
     margin-bottom: 200px;
 }
-
 
 .teaserimage {
     width: 300px;
@@ -121,21 +74,12 @@ body {
 }
 
 
-.logo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 20 px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
 
 .event {
     display: flex;
     margin: 10px;
     background-color: #FFFCF5;
-    width: 1000px;
-    flex-grow: 4;
+    width: 60%;
     flex-direction: row;
     padding: 20px;
     border-radius: 20px;
@@ -176,7 +120,7 @@ body {
 }
 
 .eventTitel {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "input-serif", serif;
     margin-top: 0;
 }
@@ -209,7 +153,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 200px;
 }
 
@@ -231,6 +176,8 @@ body {
     font-family: "amiko", sans-serif;
     margin-top: 5px;
     font-style: "bold";
+    width: 300px;
+    text-align: center
 }
 
 .datumRezensionen {
