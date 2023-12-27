@@ -1,17 +1,25 @@
 
 .flexbox {
-    display: flexbox;
-    justify-content: center;
-    height: 500px;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 80%;
+    margin-bottom: 50px;
 }
 
 #container {
-    max-width: 800px;
-    padding: 40px;
-    text-align: center;
+    max-width: 100%;
+    text-align: flex-start;
 }
 
 h1 {
-    color: #BF3A3B;
+    color: #b34641;
+}
+
+body {
+    background-color:  #FFF3D9;
+}
+
+.pageTitle {
+align-self: flex-start;
 }
