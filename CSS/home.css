@@ -164,3 +164,7 @@ body {
     font-style: "bold";
 }
 
+@media screen and (max-width: 400 px) {
+    .teaser{ flex-direction: column;}
+    .boxRezensionen{flex-direction: column;}
+}
