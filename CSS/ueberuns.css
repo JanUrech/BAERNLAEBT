@@ -131,3 +131,35 @@ header {
     width: auto;
     height: 22px;
 }
+
+.containerPortrait {
+    position: relative;
+    width: 29%;
+    border-radius: 50%;
+  }
+
+.containerPortrait:hover .overlay {
+    opacity: 1;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(211, 211, 211, 0.494);
+    border-radius: 50%;
+    }
+
+.portraitText {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    }
+    
