@@ -164,7 +164,18 @@ body {
     font-style: "bold";
 }
 
-@media screen and (max-width: 400 px) {
+@media screen and (max-width: 850px) {
+#rezensionTobias {
+    display: none;
+}
+    
+}
+
+@media screen and (max-width: 450px) {
     .teaser{ flex-direction: column;}
     .boxRezensionen{flex-direction: column;}
+
+    .paragraph {
+        width: 100%;
+    }
 }
