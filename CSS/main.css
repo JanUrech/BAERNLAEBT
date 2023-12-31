@@ -7,6 +7,12 @@ body {
     align-items: center;
     margin: 0px;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
 
 a {
     text-decoration: none;
@@ -55,7 +61,7 @@ h3 {
 p {
     font-family: "amiko", sans-serif;
     font-weight: 400;
-    font-size: 22;
+    font-size: 24;
 }
 
 header {
@@ -238,6 +244,10 @@ footer {
 }
 
 @media screen and (max-width:450px) {
+
+    main {
+        width: 90%;
+    }
 
 footer{grid-template-columns: 1fr;}
 
