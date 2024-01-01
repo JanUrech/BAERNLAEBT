@@ -49,13 +49,6 @@ body {
     text-align: right;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
-    flex-direction: column;
-    align-items: center;
-}
 
 .menu-container {
     display: flex;
@@ -146,10 +139,22 @@ text-align: justify;
     height: 150px;
 }
 
+.visionBox {
+    display: flex;
+    flex-direction: column;
+
+}
 .vision {
-align-self: flex-end;
+    align-self: end;
 width: 30%;
 min-width: 200px;
+}
+
+video {
+    width: 100%;
+    aspect-ratio: 1250/703;
+    height: auto;
+    margin: 0;
 }
 
 @media screen and (max-width:450px) {

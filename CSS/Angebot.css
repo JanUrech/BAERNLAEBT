@@ -174,13 +174,13 @@ main {
 }
 
 .angebotLink {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    width: 120%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #beerpong {
-width: 100%;
+    width: 100%;
 }
 
 #zurKarte {
@@ -191,9 +191,9 @@ width: 100%;
     font-family: "input-serif", serif;
     border-radius: 42px;
     font-size: 30px;
-    height: 84px;
-    padding: 10px;
-    margin-right: 100px;
+    grid-column: 1 / 4;
+    padding-right: 20px;
+    margin: 10px;
 }
 
 #zumKalender {
@@ -203,12 +203,15 @@ width: 100%;
     font-family: "input-serif", serif;
     border-radius: 42px;
     font-size: 30px;
-    height: 84px;
-    padding: 10px;
-    margin-left: 100px;
+    grid-column: 5 / 9;
+    padding: 0px;
+    margin: 10px;
+    padding-left: 20px;
 }
 
-#impressum {margin-top: 100px;}
+#impressum {
+    margin-top: 100px;
+}
 
 #weird {
     text-align: center;
@@ -216,13 +219,17 @@ width: 100%;
     width: 80%;
 }
 
-#verein {text-align: end;
-align-self: flex-end;}
+#verein {
+    text-align: end;
+    align-self: flex-end;
+}
 
 .roundImage {
-    aspect-ratio: 1/1;;
+    aspect-ratio: 1/1;
+    ;
     width: 300px;
-    border-radius: 50% ;}
+    border-radius: 50%;
+}
 
 
 @media screen and (max-width: 850px) {
@@ -232,14 +239,26 @@ align-self: flex-end;}
 
 }
 
-@media screen and(max-width: 450px) {
-    
+@media screen and (max-width: 450px) {
+
     .paragraph {
         width: 100%;
     }
 
-    .einladungAnmeldung{
+    .einladungAnmeldung {
         flex-wrap: wrap;
     }
-    
+
+
+
+    #zumKalender {
+        grid-row: 2;
+        grid-column: 2/9;
+    }
+
+    #zurKarte {
+        grid-row: 1;
+        grid-column: 1/7;
+    }
+
 }
