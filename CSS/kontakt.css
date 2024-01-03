@@ -3,3 +3,116 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bildKontakt {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 80%;
+}
+
+.kontaktUeberschriftContainer {
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-around;
+    margin: 10px;
+    width: 60%;
+    align-self: flex-end;
+}
+
+#haeufe {
+    font-family: "input-serif", serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: #b34641;
+    text-align: left;
+}
+
+.kontaktDatenContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.kontaktDaten {
+    background-color: #e37e41;
+    padding-left: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    font-family: "amiko", sans-serif;
+    color: white;
+    text-align: center;
+    width: 45%;
+}
+
+.kontaktFormularContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    width: 60%;
+    align-self: flex-end;
+    background-color: #dfd0af;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.kontaktFormular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: white;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#nachricht {
+    width: 90%;
+    border: none;
+    font-family: "amiko", sans-serif;
+    font-size: 20px;
+    height: 300px;
+    color: #b34641;
+}
+
+#name {
+    width: 90%;
+    border: none;
+    font-family: "amiko", sans-serif;
+    font-size: 20px;
+    border-bottom: #b34641 solid 2px;
+    color: #b34641;
+}
+
+#email {
+    width: 90%;
+    border: none;
+    font-family: "amiko", sans-serif;
+    font-size: 20px;
+    border-bottom: #b34641 solid 2px;
+    color: #b34641;
+}
+
+#absenden {
+    background-color: #e37e41;
+    padding-left: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    font-family: "amiko", sans-serif;
+    color: white;
+    text-align: center;
+    width: 45%;
+}
