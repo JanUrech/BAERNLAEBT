@@ -178,12 +178,13 @@ width: 50%;
 min-width: 200px;
 }
 
-video {
-    width: 100%;
+.video {
+    width: 200px;
     aspect-ratio: 1250/703;
-    height: auto;
     margin: 0;
+    width: 100%;
 }
+
 
 .kontaktTextBox {
  display: flex;
