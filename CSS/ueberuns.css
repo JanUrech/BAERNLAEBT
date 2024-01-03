@@ -93,16 +93,17 @@ body {
 
 .overlay {
     position: absolute;
-    aspect-ratio: 1/1;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color:rgba(211, 211, 211, 0.494);
+    background-color:#dfd0af92;
     border-radius: 50%;
     width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
     }
 
 .portraitText {
@@ -112,6 +113,32 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.portraitTitle {
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+.portraitFunction {
+    font-size: 0.7em;
+    font-weight: bold;
+   
+    }
+
+.portraitDescription {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0;
     }
     
 .textTeam {
@@ -142,11 +169,12 @@ text-align: justify;
 .visionBox {
     display: flex;
     flex-direction: column;
+    text-align: right;
 
 }
 .vision {
-    align-self: end;
-width: 30%;
+    align-self: flex-end;
+width: 50%;
 min-width: 200px;
 }
 
@@ -155,6 +183,27 @@ video {
     aspect-ratio: 1250/703;
     height: auto;
     margin: 0;
+}
+
+.kontaktTextBox {
+ display: flex;
+ flex-direction: column;
+ width: 80%;
+ text-align: left;
+}
+
+.kontaktText {
+    width: 80%;
+}
+
+.paragraphKontaktText {
+    font: amiko;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
 }
 
 @media screen and (max-width:450px) {
