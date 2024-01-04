@@ -16,6 +16,10 @@ main {
     margin: 10px
 }
 
+.center {
+text-align: center;
+}
+
 .datumswahl {
     display: flex;
     flex-direction: row;
@@ -115,7 +119,7 @@ main {
     height: 30px;
     min-width: 180px;
     width: 50%;
-    margin: 0px 20px;
+    margin: 20px;
 }
 
 #registrieren {
@@ -127,7 +131,7 @@ main {
     height: 30px;
     min-width: 180px;
     width: 50%;
-    margin: 0px 20px;
+    margin: 20px;
 }
 
 

@@ -102,6 +102,7 @@ body {
     background-color:#dfd0af92;
     border-radius: 50%;
     width: 100%;
+    aspect-ratio: 1/1;
     margin-bottom: 20px;
     overflow: hidden;
     }
@@ -207,11 +208,27 @@ min-width: 200px;
     text-align: start;
 }
 
+@media screen and (max-width:820px) {
+  
+    .containerPortrait:target .overlay {
+        opacity: 1;
+      }
+  
+    .textTeam {
+        align-self: flex-start;
+        padding-left: 0px;
+        min-width: 300px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .textTeam {
         align-self: flex-start;
         padding-left: 0px;
         min-width: 300px;
     }
-    
+
+    .containerPortrait:target .overlay {
+        opacity: 1;
+      }
 }
