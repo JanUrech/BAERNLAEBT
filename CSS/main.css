@@ -155,7 +155,8 @@ footer {
     font-family: "amiko", sans-serif;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 200px;
 }
 

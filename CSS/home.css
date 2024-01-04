@@ -4,7 +4,7 @@ body {
     background-image: url("../Images/Home_Background.svg");
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 }
 
 .teaser {
@@ -48,11 +48,11 @@ body {
 }
 
 #spass {
-align-self: flex-end;
-width: 100%;
-text-align: right;
-margin-top: 0px;
-margin-bottom: 100px;
+    align-self: flex-end;
+    width: 100%;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 
 .event {
@@ -70,7 +70,7 @@ margin-bottom: 100px;
     justify-content: center;
     flex-direction: column;
     padding: 0 20px;
-        margin-bottom: 200px;
+    margin-bottom: 200px;
     align-items: center;
 }
 
@@ -165,30 +165,47 @@ margin-bottom: 100px;
 }
 
 @media screen and (max-width: 850px) {
-#rezensionTobias {
-    display: none;
-}
-    
+    #rezensionTobias {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
-    .teaser{ flex-direction: column;}
-    .reverse{flex-direction: column-reverse;}
-    .boxRezensionen{flex-direction: column;}
-#rezensionTobias {display: flex;}
+    
+    .teaser {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .boxRezensionen {
+        flex-direction: column;
+    }
+
+    #rezensionTobias {
+        display: flex;
+    }
+
     .paragraph {
         width: 100%;
     }
+
     .userRezension {
         margin-bottom: 100px;
     }
+
     .teaserimage {
         width: 100%;
     }
+
     .teaserBoxLinks {
         width: 100%;
         margin-right: 0px;
     }
+
     .teaserBoxRechts {
         width: 100%;
         margin-left: 0px;
