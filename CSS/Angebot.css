@@ -217,6 +217,12 @@ main {
     width: 80%;
 }
 
+#beerpong {
+    text-align: center;
+    align-self: center;
+    width: 80%;
+}
+
 #verein {
     text-align: end;
     align-self: flex-end;
