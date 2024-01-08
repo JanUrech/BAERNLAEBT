@@ -7,6 +7,10 @@ body {
 
 }
 
+#headerUnterschrift {
+  text-align: center;
+}
+
 .teaser {
     display: flex;
     justify-content: space-around;
