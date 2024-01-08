@@ -10,14 +10,19 @@ body {
 .teaser {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     padding: 0 20 px;
     margin-bottom: 200px;
 }
 
-.teaserimage {
+.teaserImageBox {
     width: 40%;
     height: auto;
+}
+
+.teaserimage {
+    width: 100%;
 }
 
 .teaserBoxRechts {
@@ -197,7 +202,7 @@ body {
         margin-bottom: 100px;
     }
 
-    .teaserimage {
+    .teaserImageBox {
         width: 100%;
     }
 
@@ -210,4 +215,21 @@ body {
         width: 100%;
         margin-left: 0px;
     }
+
+    .event {
+        flex-direction: column;
+        
+    }
+    .eventDatum {
+        flex-direction: row;
+        justify-content: space-around;
+
+         }
+
+         .eventTag {
+             font-size: 50px;
+         }
+         .eventMonat {
+             font-size: 50px;
+         }
 }
