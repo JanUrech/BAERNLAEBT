@@ -13,7 +13,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px
 }
 
 .center {
@@ -55,34 +54,39 @@ text-align: center;
 .mapKalender {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    align-items: center;
 }
 
 .eventKarte {
     border-radius: 20px;
-    width: 50%;
-    margin: 0px 10px 0px 10px;
-}
+    width: calc(50% - 10px);}
 
 .suchbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 0px 10px 0px;
-    padding: 10px;
-    height: 84px;
+    height: 75px;
     background-color: white;
-    border-radius: 42px;
+    border-radius: 100px;
     align-items: center;
     width: 100%;
 }
 
+#bock {margin-left: 20px;
+border: none;
+font-family: "input-serif", serif;
+height: 40px;
+border-radius: 10px;
+width: calc(80% - 30px);}
+
 #suchIcon {
-    height: 64px;
-    border-radius: 32px;
+    height: 40px;
+    border-radius: 0px;
+    margin-right: 20px;
 }
 
 
@@ -92,7 +96,7 @@ text-align: center;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     background-color: #DFD0AF;
     border-radius: 42px;
     align-items: center;
@@ -105,7 +109,6 @@ text-align: center;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
     align-items: center;
     width: 60%;
 }
@@ -179,7 +182,7 @@ text-align: center;
 
 .angebotLink {
     display: grid;
-    width: 120%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -193,11 +196,14 @@ text-align: center;
     align-tracks: center;
     text-align: end;
     font-family: "input-serif", serif;
-    border-radius: 42px;
-    font-size: 30px;
+border-top-right-radius: 42px;
+border-bottom-right-radius:42px;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+font-size: 30px;
     grid-column: 1 / 4;
     padding-right: 20px;
-    margin: 10px;
+    margin: 0px;
 }
 
 #zumKalender {
@@ -205,11 +211,13 @@ text-align: center;
     color: white;
     justify-content: flex-start;
     font-family: "input-serif", serif;
-    border-radius: 42px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 42px;
+    border-top-left-radius: 42px;
     font-size: 30px;
     grid-column: 5 / 9;
     padding: 0px;
-    margin: 10px;
     padding-left: 20px;
 }
 

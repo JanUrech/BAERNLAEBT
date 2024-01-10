@@ -182,6 +182,7 @@ body {
 
 @media screen and (max-width: 450px) {
     
+    
     .teaser {
         flex-direction: column;
     }
