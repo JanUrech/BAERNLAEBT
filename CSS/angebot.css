@@ -4,7 +4,7 @@ body {
     background-size: cover;
 }
 
-main {
+.main {
     width: 60%;
 }
 
@@ -15,9 +15,6 @@ main {
     justify-content: center;
 }
 
-.center {
-text-align: center;
-}
 
 .datumswahl {
     display: flex;
@@ -26,6 +23,7 @@ text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: center;
+    width: 100%;
 }
 
 .datumPfeile {
@@ -33,7 +31,6 @@ text-align: center;
     color: #bf3a3b;
     text-align: center;
     border-radius: 20%;
-    font-size: 22px;
     height: 30px;
     width: 30px;
     margin: 0px 20px;
@@ -42,8 +39,6 @@ text-align: center;
 .datum {
     background-color: #e37e41;
     color: white;
-    font: amiko;
-    font-size: 22px;
     font-weight: 700;
     border-radius: 15px;
     width: 240px;
@@ -62,7 +57,8 @@ text-align: center;
 
 .eventKarte {
     border-radius: 20px;
-    width: calc(50% - 10px);}
+    width: calc(50% - 10px);
+}
 
 .suchbox {
     display: flex;
@@ -76,12 +72,14 @@ text-align: center;
     width: 100%;
 }
 
-#bock {margin-left: 20px;
-border: none;
-font-family: "input-serif", serif;
-height: 40px;
-border-radius: 10px;
-width: calc(80% - 30px);}
+#bock {
+    margin-left: 20px;
+    border: none;
+    font-family: "input-serif", serif;
+    height: 40px;
+    border-radius: 10px;
+    width: calc(80% - 30px);
+}
 
 #suchIcon {
     height: 40px;
@@ -96,7 +94,7 @@ width: calc(80% - 30px);}
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
     background-color: #DFD0AF;
     border-radius: 42px;
     align-items: center;
@@ -113,28 +111,26 @@ width: calc(80% - 30px);}
     width: 60%;
 }
 
-#anmeldung {
+#anmelden {
     background-color: #FFF3D9;
     color: black;
     text-align: center;
     border-radius: 15px;
-    font-size: 22px;
     height: 30px;
     min-width: 180px;
     width: 50%;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
 }
 
 #registrieren {
     background-color: #e37e41;
     color: white;
     text-align: center;
-    border-radius: 15px;
-    font-size: 22px;
+    border-radius: 50px;
     height: 30px;
     min-width: 180px;
     width: 50%;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
 }
 
 
@@ -161,8 +157,6 @@ width: calc(80% - 30px);}
 }
 
 .paragraphTitel {
-    font: amiko;
-    font-size: 24px;
     font-weight: 700;
     color: black;
     margin-top: 10px;
@@ -171,13 +165,14 @@ width: calc(80% - 30px);}
 }
 
 .paragraphText {
-    font: amiko;
-    font-size: 22px;
-    font-weight: 400;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: start;
+}
+
+#einladungText {
+    text-align: center;
 }
 
 .angebotLink {
@@ -193,17 +188,16 @@ width: calc(80% - 30px);}
 #zurKarte {
     background-color: #047553;
     color: white;
-    align-tracks: center;
     text-align: end;
     font-family: "input-serif", serif;
-border-top-right-radius: 42px;
-border-bottom-right-radius:42px;
-border-bottom-left-radius: 0px;
-border-top-left-radius: 0px;
-font-size: 30px;
+    border-top-right-radius: 42px;
+    border-bottom-right-radius: 42px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size: 30px;
     grid-column: 1 / 4;
     padding-right: 20px;
-    margin: 0px;
+    margin:10px 0px 10px 0px;
 }
 
 #zumKalender {
@@ -219,6 +213,7 @@ font-size: 30px;
     grid-column: 5 / 9;
     padding: 0px;
     padding-left: 20px;
+    margin:10px 0px 10px 0px;
 }
 
 
@@ -252,8 +247,13 @@ font-size: 30px;
 }
 
 
+.center {
+    text-align: center;
+}
+
+
 @media screen and (max-width: 850px) {
-    main {
+    .main {
         width: 90%;
     }
 
@@ -269,7 +269,9 @@ font-size: 30px;
         flex-wrap: wrap;
     }
 
-
+.mapKalender {flex-direction: column;}
+ 
+.eventKarte {width: calc(100% - 20px); margin: 10px;}
 
     #zumKalender {
         grid-row: 2;

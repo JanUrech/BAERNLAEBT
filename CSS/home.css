@@ -16,7 +16,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    padding: 0 20 px;
+    padding: 0px 20px;
     margin-bottom: 200px;
 }
 
@@ -153,24 +153,19 @@ body {
 
 .nameRezensionen {
     font-size: 25px;
-    font-family: "amiko", sans-serif;
     margin-top: 20px;
-    font-style: "bold";
+    font-weight: 700;
 }
 
 .textRezensionen {
-    font-family: "amiko", sans-serif;
     margin-top: 5px;
-    font-style: "bold";
     width: 300px;
     text-align: center
 }
 
 .datumRezensionen {
     font-size: 15px;
-    font-family: "amiko", sans-serif;
     margin-top: 7px;
-    font-style: "bold";
 }
 
 @media screen and (max-width: 850px) {

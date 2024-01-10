@@ -10,12 +10,11 @@
 .impressumContainer {
     display: flex;
     width: 70%;
-    text-align: flex-start;
     align-items: flex-start;
 
 }
 
-.impressumText {    text-align: left;}
+.impressumText { text-align: left;}
 
 h1 {
     color: #b34641;
