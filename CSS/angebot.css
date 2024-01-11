@@ -75,10 +75,11 @@ body {
 #bock {
     margin-left: 20px;
     border: none;
-    font-family: "input-serif", serif;
+    font-family: "amiko", sans-serif;
     height: 40px;
     border-radius: 10px;
     width: calc(80% - 30px);
+    font-size: 22px;
 }
 
 #suchIcon {
@@ -94,7 +95,7 @@ body {
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 0px;
     background-color: #DFD0AF;
     border-radius: 42px;
     align-items: center;
@@ -281,6 +282,10 @@ body {
     #zurKarte {
         grid-row: 1;
         grid-column: 1/7;
+    }
+
+    #bock {
+        font-size: 22px;
     }
 
 }

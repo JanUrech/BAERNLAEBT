@@ -105,6 +105,11 @@ body {
     opacity: 1;
 }
 
+.containerPortrait:active .overlay {
+    opacity: 1;
+}
+
+
 .portraitText {
     color: black;
     position: absolute;

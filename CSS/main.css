@@ -97,7 +97,7 @@ header {
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     margin-bottom: 0px;
-    width: calc(60%);
+    width: 100%;
 }
 
 
