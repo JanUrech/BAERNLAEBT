@@ -68,8 +68,12 @@ h3 {
     font-weight: 400;
     font-size: 60px;
     text-align: center;
+<<<<<<< Updated upstream
     margin-left: 0;
     margin-right: 0;
+=======
+    margin: 20px;
+>>>>>>> Stashed changes
 }
 
 p {

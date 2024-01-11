@@ -49,15 +49,24 @@ body {
 .mapKalender {
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream:CSS/angebot.css
     justify-content: space-between;
     width: 100%;
+=======
+    justify-content: center;
+>>>>>>> Stashed changes:CSS/Angebot.css
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .eventKarte {
     border-radius: 20px;
+<<<<<<< Updated upstream:CSS/angebot.css
     width: calc(50% - 10px);
+=======
+    width: 30%;
+    margin: 10px;
+>>>>>>> Stashed changes:CSS/Angebot.css
 }
 
 .suchbox {
@@ -69,6 +78,7 @@ body {
     background-color: white;
     border-radius: 100px;
     align-items: center;
+<<<<<<< Updated upstream:CSS/angebot.css
     width: 100%;
 }
 
@@ -80,6 +90,9 @@ body {
     border-radius: 10px;
     width: calc(80% - 30px);
     font-size: 22px;
+=======
+    width: 60%;
+>>>>>>> Stashed changes:CSS/Angebot.css
 }
 
 #suchIcon {
@@ -99,7 +112,11 @@ body {
     background-color: #DFD0AF;
     border-radius: 42px;
     align-items: center;
+<<<<<<< Updated upstream:CSS/angebot.css
     width: 100%;
+=======
+    width: 60%;
+>>>>>>> Stashed changes:CSS/Angebot.css
 }
 
 .einladungAnmeldung {
@@ -112,7 +129,22 @@ body {
     width: 60%;
 }
 
+<<<<<<< Updated upstream:CSS/angebot.css
 #anmelden {
+=======
+#einladungTitel {
+    font: amiko;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+#anmeldung {
+>>>>>>> Stashed changes:CSS/Angebot.css
     background-color: #FFF3D9;
     color: black;
     text-align: center;

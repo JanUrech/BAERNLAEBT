@@ -1,5 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
 
+<<<<<<< Updated upstream
+=======
+body {
+    background-image: url("../Images/Home_Background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoÜberuns {
+    width: 64px;
+    height: 125px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20px;
+
+}
+.teaserBoxLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 25%;
+    flex-direction: column;
+    width: 400px;
+}
+
+.teaserBoxRechts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 25%;
+    flex-direction: column;
+    width: 400px;
+}
+
+.Salut {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20 px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.teaserTextLinks {
+    text-align: left;
+}
+
+.teaserTextRechts {
+    text-align: right;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerOld {
+    display: none;
+}
+
+.headerIconsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+>>>>>>> Stashed changes
 .menu-container {
     display: flex;
     justify-content: space-around;
