@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
 
-<<<<<<< Updated upstream
-=======
+
 body {
     background-image: url("../Images/Home_Background.svg");
     background-size: cover;
@@ -81,7 +80,7 @@ header {
     width: 100%;
 }
 
->>>>>>> Stashed changes
+
 .menu-container {
     display: flex;
     justify-content: space-around;
