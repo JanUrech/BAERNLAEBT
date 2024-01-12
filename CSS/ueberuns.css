@@ -319,7 +319,7 @@ body {
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
     .textTeam {
         align-self: flex-start;
         padding-left: 0px;
