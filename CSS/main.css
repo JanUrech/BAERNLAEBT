@@ -100,7 +100,6 @@ header {
 
 .headerIcons {
     height: 25px;
-
 }
 
 .toolbarLeft {
@@ -126,11 +125,11 @@ header {
 .button {
     background-color: #DFD0AF;
     color: rgb(0, 0, 0);
-    font-weight: bolder;
+    font-weight: 900;
     text-align: center;
     line-height: 3.5;
     margin: 10px;
-    width: 175px;
+    width: 200px;
     height: 75px;
     border-radius: 40px;
 }
@@ -145,7 +144,7 @@ header {
 
 .menu {
     width: 20%;
-    min-width: 175px;
+    min-width: 200px;
 }
 
 footer {
