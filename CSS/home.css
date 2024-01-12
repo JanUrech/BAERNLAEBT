@@ -5,19 +5,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+}
+
+#headerUnterschrift {
+  text-align: center;
 }
 
 .teaser {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
-    padding: 0 20 px;
+    padding: 0px 20px;
     margin-bottom: 200px;
 }
 
-.teaserimage {
+.teaserImageBox {
     width: 40%;
     height: auto;
+}
+
+.teaserimage {
+    width: 100%;
 }
 
 .teaserBoxRechts {
@@ -125,6 +135,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .userRezension {
@@ -133,6 +144,7 @@ body {
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
+    align-self: flex-start;
 }
 
 
@@ -144,24 +156,19 @@ body {
 
 .nameRezensionen {
     font-size: 25px;
-    font-family: "amiko", sans-serif;
     margin-top: 20px;
-    font-style: "bold";
+    font-weight: 700;
 }
 
 .textRezensionen {
-    font-family: "amiko", sans-serif;
     margin-top: 5px;
-    font-style: "bold";
     width: 300px;
     text-align: center
 }
 
 .datumRezensionen {
     font-size: 15px;
-    font-family: "amiko", sans-serif;
     margin-top: 7px;
-    font-style: "bold";
 }
 
 @media screen and (max-width: 850px) {
@@ -169,9 +176,16 @@ body {
         display: none;
     }
 
+    body {background-position-y: 18cm;
+        background-position-x: 0cm;
+        background-color: #FFF3D9;
+    
 }
 
-@media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 480px) {
+    
     
     .teaser {
         flex-direction: column;
@@ -197,7 +211,7 @@ body {
         margin-bottom: 100px;
     }
 
-    .teaserimage {
+    .teaserImageBox {
         width: 100%;
     }
 
@@ -210,4 +224,26 @@ body {
         width: 100%;
         margin-left: 0px;
     }
+
+    .event {
+        flex-direction: column;
+        
+    }
+    .eventDatum {
+        flex-direction: row;
+        justify-content: space-around;
+
+         }
+
+         .eventTag {
+             font-size: 50px;
+         }
+         .eventMonat {
+             font-size: 50px;
+         }
+         body {background-position-y: 25cm;
+            background-position-x: 0cm;
+            background-color: #FFF3D9;
+        
+   }
 }

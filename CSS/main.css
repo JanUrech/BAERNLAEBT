@@ -7,11 +7,15 @@ body {
     align-items: center;
     margin: 0px;
 }
-main {
+.main {
     display: flex;
     flex-direction: column;
     width: 60%;
     align-items: center;
+}
+
+.tabLogo {
+   width: 50%;
 }
 
 section {
@@ -25,19 +29,20 @@ margin: 0;
 a {
     text-decoration: none;
     color: black;
+    font-size: 22px;
+    font-family: "amiko", sans-serif;
 }
 
-.logo {
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
+
 
 .logoHome {
     width: 80%;
     max-width: 400px;
     margin-top: 10px;
+}
+
+.logo {
+    width: 50px;
 }
 
 h1 {
@@ -61,16 +66,15 @@ h3 {
     color: #b34641;
     font-family: "input-serif", serif;
     font-weight: 400;
-    font-size: 66px;
+    font-size: 60px;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 20px;
 }
 
 p {
     font-family: "amiko", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #impressum {
@@ -80,10 +84,10 @@ p {
 header {
     display: flex;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     width: 60%;
 }
 
@@ -92,8 +96,10 @@ header {
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     margin-bottom: 0px;
-    width: calc(90%);
+    width: 100%;
 }
+
+
 
 .headerIcons {
     height: 25px;
@@ -116,7 +122,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -126,16 +133,14 @@ header {
     color: rgb(0, 0, 0);
     text-align: center;
     line-height: 3.5;
-    font-size: 22px;
     margin: 10px;
-    font-family: "amiko", sans-serif;
-    width: 20%;
-    min-width: 170px;
+    width: 175px;
+    height: 75px;
     border-radius: 40px;
 }
 
 .button:hover {
-    background-color: brown;
+    background-color: #bf3a3b;
 
 }
 
@@ -145,14 +150,13 @@ header {
 
 .menu {
 width: 20%;
-max-width: 150px;
+min-width: 175px;
 }
 
 
 footer {
     width: 100%;
     background-color: #DFD0AF;
-    font-family: "amiko", sans-serif;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
     padding-top: 30px;
@@ -165,8 +169,8 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    font-size: 20px;
     margin-top: 0px;
+    width: 100%;
 }
 
 .footerSoMeContainer {
@@ -205,15 +209,11 @@ footer {
 }
 
 .footerTitel {
-    font-size: 22px;
-    font-family: "amiko", sans-serif;
     color: #bf3a3b;
     margin: 0px;
 }
 
 .footerText {
-    font-size: 22px;
-    font-family: "amiko", sans-serif;
     margin: 0px;
 }
 
@@ -235,41 +235,41 @@ footer {
         font-size: 40px;
     }
 
-main {width: 80%;}
+.main {width: 80%;}
 
-    .button {
-        font-size: 18px;
-        width: 150px;
-        height: 70px;
-        line-height: 2.5;
-        text-align: center;
-    }
-    .button:hover {
-        background-color: brown;
-        font-size: 18px;
-        width: 150px;
-        height: 70px;
-        line-height: 2.5;
-        text-align: center;
-    }
     .menu-container {
-        flex-wrap: wrap;
+        flex-wrap: wrap;}
+
+    .toolbar {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    header {
+        width: 100%;
     }
 }
 
 @media screen and (max-width:450px) {
 
-    main {
+    .main {
         width: 90%;
     }
 
-footer{grid-template-columns: 1fr;}
+.menu {
+    min-width: 100px;
+    width: 160px;}
+
+footer{
+   
+    grid-template-columns: 1fr;}
 
 #footerColumn1 {
     grid-column: 1;
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 10px;
+    width: calc(100% - 20px);
 }
 
 #footerColumn2 {
@@ -277,6 +277,7 @@ footer{grid-template-columns: 1fr;}
     grid-row-start: 4;
     grid-row-end: 5;
     padding: 10px;
+    width: calc(100% - 20px);
 }
 
 #footerColumn3 {
@@ -284,6 +285,7 @@ footer{grid-template-columns: 1fr;}
     grid-row-start: 6;
     grid-row-end: 7;
     padding: 10px;
+    width: calc(100% - 20px);
 }
 
 #footerColumn4 {
@@ -291,12 +293,14 @@ footer{grid-template-columns: 1fr;}
     grid-row-start: 8;
     grid-row-end: 9;
     padding: 10px;
+    width: calc(100% - 20px);
 }
 .footerSoMeContainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    width: calc(100% - 20px);
 }
 
 h3 {
