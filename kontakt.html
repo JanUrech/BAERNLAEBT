@@ -13,18 +13,22 @@
 
 <body>
     <header>
-    <section class="toolbar">
-        <div class="toolbarLeft">
-            <img src="Images/Icons/Settings.png" alt="Einstellungen" class="headerIcons">
-            <img src="Images/Icons/Home.png" alt="Home" class="headerIcons">
-        </div>
-        <div class="toolbarRight"><img src="Images/Icons/Herz.png" alt="Like" class="headerIcons">
-            <img src="Images/Icons/Profil.png" alt="Profil" class="headerIcons">
-        </div>
-    </section>
+        <section class="toolbar">
+            <div class="toolbarLeft">
+                <img src="Images/Icons/Settings.png" alt="Einstellungen" class="headerIcons">
+                <a href="index.html">
+                    <img src="Images/Icons/Home.png" alt="Home" class="headerIcons">
+                </a>
+            </div>
 
+            <div class="toolbarRight"><img src="Images/Icons/Herz.png" alt="Like" class="headerIcons">
+                <img src="Images/Icons/Profil.png" alt="Profil" class="headerIcons">
+            </div>
+        </section>
 
-        <img src="Images/LogoKlein.png" alt="logo Bärnläbt" class="logo">
+        <a href="index.html">
+            <img src="Images/LogoKlein.png" alt="logo Bärnläbt" class="logo">
+        </a>
 
         <section class="menu-container">
             <a href="index.html" class="button menu">Home</a>
@@ -32,19 +36,20 @@
             <a href="ueberuns.html" class="button menu">Über uns</a>
             <a href="kontakt.html" class="button menu" id="buttonActive">Kontakt</a>
         </section>
-
     </header>
+
     <img src="Images/Kontakt/KontaktKarte.png" alt="Karte Bern mit Illustrationen" class="bildKontakt">
+
     <div class="boxKarte">
         <p class="textKarte"> BÄRNLÄBT</p>
         <p class="textKarte"> Holzikofenweg 8</p>
         <p class="textKarte"> 3000 Bern</p>
     </div>
 
-
     <div class="main">
         <div class="kontaktUeberschriftContainer">
             <h3 id="haeufe"> Mer häufed gärn! </h3>
+
             <div class="kontaktDatenContainer">
                 <p class="kontaktDaten">infos@baernlaebt.ch</p>
                 <p class="kontaktDaten"> +41 31 123 45 67</p>
@@ -56,14 +61,14 @@
                 <textarea id="nachricht" name="nachricht" placeholder="Was interessiert dich schon lange?"
                     required></textarea>
                 <input type="text" id="name" placeholder="Name" required>
-
                 <input type="email" id="email" name="email" placeholder="E-Mail" required>
-
                 <input type="submit" value="Absenden" id="absenden">
             </form>
         </div>
+
         <a class="button" id="impressum" href="impressum.html"> Impressum </a>
     </div class="main">
+
     <footer>
         <section class="footerTextContainer" id="footerColumn1">
             <p class="footerTitel">BÄRNLÄBT GmbH</p>
@@ -83,13 +88,13 @@
             <p class="footerText">Fr: </p>
             <p class="footerText">bis 16:00 Uhr</p>
         </section>
+
         <section class="footerTextContainer" id="footerColumn3">
             <a href="index.html" class="footerText">Home</a>
             <a href="angebot.html" class="footerText">Angebot</a>
             <a href="ueberuns.html" class="footerText">Über uns</a>
             <a href="kontakt.html" class="footerText">Kontakt</a>
             <a href="impressum.html" class="footerText">Impressum</a>
-
         </section>
 
         <section class="footerSoMeContainer " id="footerColumn4">
@@ -97,10 +102,12 @@
             <img src="Images/Icons/Instagram.png" alt="Instagram Icon" class="footerSoMe">
             <img src="Images/Icons/Facebook.png" alt="Facebook Icon" class="footerSoMe">
             <img src="Images/Icons/X.png" alt="X Icon" class="footerSoMe">
-
         </section>
-
     </footer>
+
+    <div class="footerLogoContainer">
+        <img src="Images/LogoKlein.png" alt="Logo BÄRNLÄBT" class="footerLogo">
+    </div>
 </body>
 
 </html>

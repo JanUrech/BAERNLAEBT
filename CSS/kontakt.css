@@ -66,7 +66,6 @@ body {
     margin-bottom: 200px;
 }
 
-
 .kontaktFormular {
     display: flex;
     flex-direction: column;
@@ -125,12 +124,11 @@ body {
     border: none;
 }
 
-.boxKarte   {
-align-self: flex-start;
-margin-left: 16%;
-margin-top: -70px;
-border-radius: 20px;
-
+.boxKarte {
+    align-self: flex-start;
+    margin-left: 16%;
+    margin-top: -70px;
+    border-radius: 20px;
 }
 
 .textKarte {
@@ -139,20 +137,22 @@ border-radius: 20px;
     font-size: 22px;
     text-align: left;
     margin-top: 0;
-margin-bottom: 0;}
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 820px) {
 
     .main {
         width: 80%;
     }
+
     .kontaktUeberschriftContainer {
         width: 80%;
     }
+
     .kontaktFormularContainer {
         width: 80%;
     }
-
 }
 
 @media screen and (max-width:480px) {
@@ -160,19 +160,21 @@ margin-bottom: 0;}
     .main {
         width: 90%;
     }
+
     .kontaktUeberschriftContainer {
         width: 100%;
     }
+
     .kontaktFormularContainer {
         width: 100%;
     }
 
-.kontaktFormular {
-    width: 80%;
-margin: 0px;
-}
-.boxKarte{
-margin-top: -25px;
+    .kontaktFormular {
+        width: 80%;
+        margin: 0px;
+    }
 
-}
+    .boxKarte {
+        margin-top: -25px;
+    }
 }
