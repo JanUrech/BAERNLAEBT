@@ -1,97 +1,4 @@
 body {
-    background-image: url("../Images/Home_Background.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.logoÜberuns {
-    width: 64px;
-    height: 125px;
-    flex-shrink: 0;
-    margin-top: 50px;
-    margin-bottom: 53px;
-}
-
-.horizontal {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 20px;
-
-}
-
-.teaserBoxLinks {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    margin-right: 25%;
-    flex-direction: column;
-    width: 400px;
-}
-
-.teaserBoxRechts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 25%;
-    flex-direction: column;
-    width: 400px;
-}
-
-.Salut {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 20 px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.teaserTextLinks {
-    text-align: left;
-}
-
-.teaserTextRechts {
-    text-align: right;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.headerOld {
-    display: none;
-}
-
-.headerIconsBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    gap: 10px;
-}
-
-.button-container {
-    flex: 1;
-}
-
-body {
     background-image: url("../Images/Angebot_Background.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +15,7 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .salutBoxLinks {
@@ -146,6 +53,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     gap: 10px;
+    margin-bottom: 60px;
 }
 
 .containerPortrait {
@@ -180,10 +88,6 @@ body {
 }
 
 .containerPortrait:hover .overlay {
-    opacity: 1;
-}
-
-.containerPortrait:active .overlay {
     opacity: 1;
 }
 
@@ -225,6 +129,7 @@ body {
     align-self: flex-start;
     width: 50%;
     min-width: 300px;
+    margin-bottom: 60px
 }
 
 .ideeTextBox {
@@ -242,7 +147,7 @@ body {
 
 .placeholder {
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 .vision {
@@ -254,11 +159,20 @@ body {
     min-width: 200px;
 }
 
+#claim {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
 .video {
     width: 200px;
     aspect-ratio: 1250/703;
     margin: 0;
     width: 100%;
+}
+
+.kontaktBox {
+    margin-top: 80px;
 }
 
 .kontaktText {
@@ -313,7 +227,7 @@ body {
 }
 
 @media screen and (max-width:480px) {
-    
+
     .textTeam {
         align-self: flex-start;
         padding-left: 0px;

@@ -30,9 +30,10 @@ body {
     color: #bf3a3b;
     text-align: center;
     border-radius: 20%;
-    height: 30px;
-    width: 30px;
-    margin: 0px 20px;
+    line-height: 44px;
+    height: 40px;
+    width: 40px;
+    margin: 0px 15px;
 }
 
 .datum {
@@ -40,9 +41,10 @@ body {
     color: white;
     font-weight: 700;
     border-radius: 15px;
-    width: 240px;
-    height: 30px;
+    width: 200px;
+    height: 35px;
     text-align: center;
+    line-height: 35px;
 }
 
 .mapKalender {
@@ -88,14 +90,13 @@ body {
     margin-right: 20px;
 }
 
-
 .einladungBox {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 0px;
+    padding: 20px 0px 20px 0px;
     background-color: #DFD0AF;
     border-radius: 42px;
     align-items: center;
@@ -114,7 +115,7 @@ body {
 
 #einladungTitel {
     font: amiko;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     color: black;
     margin-top: 10px;
@@ -123,14 +124,21 @@ body {
     text-align: center;
 }
 
+#einladungText {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #anmelden {
     background-color: #FFF3D9;
     color: black;
     text-align: center;
-    border-radius: 15px;
-    height: 30px;
+    border-radius: 30px;
+    height: 35px;
+    line-height: 35px;
     min-width: 180px;
-    width: 50%;
+    width: 55%;
     margin: 10px 20px 10px 20px;
 }
 
@@ -138,10 +146,11 @@ body {
     background-color: #e37e41;
     color: white;
     text-align: center;
-    border-radius: 50px;
-    height: 30px;
+    border-radius: 30px;
+    height: 35px;
+    line-height: 35px;
     min-width: 180px;
-    width: 50%;
+    width: 55%;
     margin: 10px 20px 10px 20px;
 }
 
@@ -157,6 +166,8 @@ body {
     text-align: end;
     align-self: flex-end;
     width: 70%;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 .paragraph {
@@ -182,18 +193,10 @@ body {
     text-align: start;
 }
 
-#einladungText {
-    text-align: center;
-}
-
 .angebotLink {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-#beerpong {
-    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #zurKarte {
@@ -205,10 +208,10 @@ body {
     border-bottom-right-radius: 42px;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
-    font-size: 30px;
-    grid-column: 1 / 4;
-    padding-right: 20px;
-    margin: 10px 0px 10px 0px;
+    font-size: 40px;
+    grid-column: 1 / 8;
+    padding: 20px 100px 20px 20px;
+    margin: 50px 0px 100px 0px;
 }
 
 #zumKalender {
@@ -220,11 +223,10 @@ body {
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 42px;
     border-top-left-radius: 42px;
-    font-size: 30px;
-    grid-column: 5 / 9;
-    padding: 0px;
-    padding-left: 20px;
-    margin: 10px 0px 10px 0px;
+    font-size: 40px;
+    grid-column: 9 / 16;
+    padding: 20px 20px 20px 100px ;
+    margin: 50px 0px 100px 0px;
 }
 
 #weird {
@@ -237,11 +239,14 @@ body {
     text-align: center;
     align-self: center;
     width: 80%;
+    margin-bottom: 40px;
 }
 
 #verein {
     text-align: end;
     align-self: flex-end;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .roundImage {
@@ -252,11 +257,7 @@ body {
 }
 
 #basketball {
-    margin-top: 200px;
-}
-
-.center {
-    text-align: center;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 850px) {

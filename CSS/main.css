@@ -19,6 +19,10 @@ body {
     width: 50%;
 }
 
+.logo {
+    width: 50px;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -32,16 +36,6 @@ a {
     color: black;
     font-size: 22px;
     font-family: "amiko", sans-serif;
-}
-
-.logoHome {
-    width: 80%;
-    max-width: 400px;
-    margin-top: 10px;
-}
-
-.logo {
-    width: 50px;
 }
 
 h1 {
@@ -74,10 +68,6 @@ p {
     font-family: "amiko", sans-serif;
     font-weight: 400;
     font-size: 22px;
-}
-
-#impressum {
-    margin-top: 100px;
 }
 
 header {
@@ -125,7 +115,7 @@ header {
 .button {
     background-color: #DFD0AF;
     color: rgb(0, 0, 0);
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
     line-height: 3.5;
     margin: 10px;
@@ -147,6 +137,10 @@ header {
     min-width: 200px;
 }
 
+#impressum {
+    margin-top: 200px;
+}
+
 footer {
     width: 100%;
     background-color: #DFD0AF;
@@ -154,7 +148,7 @@ footer {
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 1fr 1fr;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 200px;
+    margin-top: 40px;
 }
 
 .footerTextContainer {
