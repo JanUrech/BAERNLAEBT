@@ -137,7 +137,7 @@ body {
     width: 70%;
     align-self: flex-start;
     box-shadow: none;
-    border: none;   
+    border: none;
     height: 35px;
     line-height: 35px;
 }
@@ -159,6 +159,10 @@ body {
 
 @media screen and (max-width:480px) {
 
+    .boxKarte {
+        margin-top: -25px;
+    }
+
     .main {
         width: 90%;
     }
@@ -176,7 +180,4 @@ body {
         margin: 0px;
     }
 
-    .boxKarte {
-        margin-top: -25px;
-    }
 }

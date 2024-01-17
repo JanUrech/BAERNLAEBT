@@ -4,10 +4,6 @@ body {
     background-size: cover;
 }
 
-.main {
-    width: 60%;
-}
-
 .sectionCalendar {
     display: flex;
     flex-direction: column;
@@ -103,16 +99,6 @@ body {
     width: 100%;
 }
 
-.einladungAnmeldung {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    align-items: center;
-    width: 60%;
-}
-
 #einladungTitel {
     font: amiko;
     font-size: 22px;
@@ -128,6 +114,16 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.einladungAnmeldung {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 60%;
 }
 
 #anmelden {
@@ -225,7 +221,7 @@ body {
     border-top-left-radius: 42px;
     font-size: 40px;
     grid-column: 9 / 16;
-    padding: 20px 20px 20px 100px ;
+    padding: 20px 20px 20px 100px;
     margin: 50px 0px 100px 0px;
 }
 
@@ -264,17 +260,17 @@ body {
     .main {
         width: 90%;
     }
+
+    #zurKarte {
+        font-size: 30px;
+    }
+
+    #zumKalender {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 480px) {
-
-    .paragraph {
-        width: 100%;
-    }
-
-    .einladungAnmeldung {
-        flex-wrap: wrap;
-    }
 
     .mapKalender {
         flex-direction: column;
@@ -285,17 +281,35 @@ body {
         margin: 10px;
     }
 
-    #zumKalender {
-        grid-row: 2;
-        grid-column: 2/9;
+    #bock {
+        font-size: 22px;
+    }
+
+    .einladungAnmeldung {
+        flex-wrap: wrap;
+    }
+
+    .paragraph {
+        width: 100%;
     }
 
     #zurKarte {
         grid-row: 1;
-        grid-column: 1/7;
+        grid-column: 1/14;
+        padding: 20px 20px 20px 30px;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 
-    #bock {
-        font-size: 22px;
+    #zumKalender {
+        grid-row: 2;
+        grid-column: 3/16;
+        padding: 20px 20px 20px 30px;
+        font-size: 30px;
+    }
+
+    #verein {
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 }

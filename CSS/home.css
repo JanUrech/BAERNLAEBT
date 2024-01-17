@@ -94,6 +94,10 @@ body {
     margin-bottom: 20px;
 }
 
+.largeimage {
+    width: 100%;
+}
+
 .eventliste {
     width: 90%;
     margin-bottom: 180px;
@@ -107,10 +111,7 @@ body {
     flex-direction: row;
     padding: 20px;
     border-radius: 40px;
-}
 
-.largeimage {
-    width: 100%;
 }
 
 #eventGrün {
@@ -131,28 +132,35 @@ body {
     border-style: solid;
 }
 
+.eventTitel {
+    font-size: 30px;
+    font-family: "input-serif", serif;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+.eventText {
+    margin-left: 50px;
+}
+
 .eventDatum {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-left: 30px;
 }
 
 .eventMonat {
-    font-size: 30px;
+    font-size: 50px;
     font-family: "input-serif", serif;
     margin: 0;
 }
 
 .eventTag {
-    font-size: 70px;
+    font-size: 90px;
     font-family: "input-serif", serif;
     margin: 0;
-}
-
-.eventTitel {
-    font-size: 30px;
-    font-family: "input-serif", serif;
-    margin-top: 0;
 }
 
 .boxRezensionen {
@@ -196,6 +204,12 @@ body {
 
 @media screen and (max-width: 850px) {
 
+    body {
+        background-position-y: 18cm;
+        background-position-x: 0cm;
+        background-color: #FFF3D9;
+    }
+
     .teaserBoxRechts {
         margin-left: 60px;
     }
@@ -213,14 +227,15 @@ body {
         margin: 40px;
     }
 
-    body {
-        background-position-y: 18cm;
-        background-position-x: 0cm;
-        background-color: #FFF3D9;
-    }
 }
 
 @media screen and (max-width: 480px) {
+
+    body {
+        background-position-y: 25cm;
+        background-position-x: 0cm;
+        background-color: #FFF3D9;
+    }
 
     .teaser {
         flex-direction: column;
@@ -232,10 +247,6 @@ body {
 
     .boxRezensionen {
         flex-direction: column;
-    }
-
-    #rezensionTobias {
-        display: flex;
     }
 
     .paragraph {
@@ -262,9 +273,18 @@ body {
         box-sizing: border-box;
     }
 
+    .eventTitel {
+        margin-left: 0px;
+    }
+
+    .eventText {
+        margin-left: 0px;
+    }
+
     .eventDatum {
         flex-direction: row;
         justify-content: space-around;
+        margin-left: 0px;
     }
 
     .eventTag {
@@ -273,11 +293,5 @@ body {
 
     .eventMonat {
         font-size: 50px;
-    }
-
-    body {
-        background-position-y: 25cm;
-        background-position-x: 0cm;
-        background-color: #FFF3D9;
     }
 }

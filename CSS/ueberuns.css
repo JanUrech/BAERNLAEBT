@@ -5,10 +5,6 @@ body {
     margin: 0;
 }
 
-.main {
-    min-width: 650px;
-}
-
 .salut {
     display: flex;
     justify-content: space-around;
@@ -207,18 +203,10 @@ body {
         opacity: 1;
     }
 
-    .containerPortrait:checked .overlay {
-        opacity: 1;
-    }
-
     .textTeam {
         align-self: flex-start;
         padding-left: 0px;
         min-width: 300px;
-    }
-
-    .main {
-        min-width: 0px;
     }
 
     .vision {
@@ -228,20 +216,6 @@ body {
 
 @media screen and (max-width:480px) {
 
-    .textTeam {
-        align-self: flex-start;
-        padding-left: 0px;
-        min-width: 300px;
-    }
-
-    .containerPortrait input:checked~.overlay {
-        opacity: 1;
-    }
-
-    .containerPortrait {
-        width: 80%;
-    }
-
     .salutBoxLinks {
         width: 100%;
         margin: 0px;
@@ -250,6 +224,20 @@ body {
     .salutBoxRechts {
         width: 100%;
         margin: 0px;
+    }
+
+    .containerPortrait {
+        width: 80%;
+    }
+
+    .containerPortrait input:checked~.overlay {
+        opacity: 1;
+    }
+
+    .textTeam {
+        align-self: flex-start;
+        padding-left: 0px;
+        min-width: 300px;
     }
 
     .vision {
